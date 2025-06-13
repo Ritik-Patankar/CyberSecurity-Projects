@@ -1,0 +1,5 @@
+- Never use string formatting to build SQL queries with user inputs.
+- Always use parameterized queries or ORM frameworks.
+- Validate and sanitize user inputs on both frontend and backend.
+- Limit database permissions—use least privilege principle.
+- Monitor and log suspicious login attempts.
